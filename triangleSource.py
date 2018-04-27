@@ -6,7 +6,6 @@ level = int(input("Enter the number of levels of the fractal to be created ")
 
 def triangle(x,y):
 
-    # if 
     if y != 0:
         triangle(x/2,y-1)
         q.forward(x/2)
