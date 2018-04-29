@@ -1,8 +1,8 @@
 import turtle
 window = turtle.Screen()
 q = turtle.Turtle()
-size = int(input("Enter the size of the triangle in pixels ")
-loop = int(input("Enter the number of levels of the fractal to be created ")
+size = int(input("Enter the size of the triangle in pixels "))
+loop = int(input("Enter the number of levels of the fractal to be created "))
 
 def triangle(x,y):
 
@@ -20,10 +20,10 @@ def triangle(x,y):
         q.right(60)
         
     else:
-        h = 0
-        while x <= 3:
+        
+        for i in range(0,3):
             q.forward(x)
             q.left(120)
-            x = x + 1
+  
             
 triangle(size,loop)
