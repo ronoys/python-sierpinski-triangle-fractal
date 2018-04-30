@@ -1,4 +1,4 @@
-import turtle
+import turtle # imports module
 window = turtle.Screen()
 q = turtle.Turtle()
 size = int(input("Enter the size of the triangle in pixels "))
